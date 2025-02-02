@@ -50,3 +50,14 @@ do {
    responses++; // Simulate user input with responses++
 } while (responses < 3); // Loop runs until responses reach 3
 
+
+// Task 5: For...In Loop
+
+// Declare object employee
+const employee = {name: "Alice", position: "Manager", salary: 75000};
+
+// Use a for...in loop to iterate through the object properties
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`); // Log each property and value
+}
+
