@@ -103,3 +103,11 @@ const applyDiscount = function(price, discountPercentage) {
 // Log the discounted price result with price = $230 and 20% discount 
 console.log(`Discounted Price: $${applyDiscount(230, 20)}`);
 
+
+// Task 10: Arrow Functions
+
+// Write arrow function calculatePoints that takes a purchase amount and returns points earned (1 point per $10 spent)
+const calculatePoints = (purchase) => Math.floor(purchase/10); 
+
+// Log the result using purchase amount = $235
+console.log(`Points earned: ${calculatePoints(235)}`);
