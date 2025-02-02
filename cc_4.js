@@ -61,3 +61,14 @@ for (let key in employee) {
     console.log(`${key}: ${employee[key]}`); // Log each property and value
 }
 
+
+// Task 6: For...Of Loop
+
+// Declare array products 
+const products = ["Ice cream", "Chocolate bar", "Candy bar"];
+
+// Use a for...of loop to display each product
+for (let product of products) {
+    console.log(`Product name: ${product}`); // Log each product name
+}
+
