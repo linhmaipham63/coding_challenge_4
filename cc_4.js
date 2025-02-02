@@ -72,3 +72,12 @@ for (let product of products) {
     console.log(`Product name: ${product}`); // Log each product name
 }
 
+
+// Task 7: forEach() Method
+
+// Declare array orders
+const orders = [101, 102, 103];
+
+// Use the forEach() method to log each order ID
+orders.forEach(order => console.log(`Order ID: ${order}`)); 
+
