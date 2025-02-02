@@ -37,3 +37,16 @@ while (stock >= 0) {
     console.log(`Stock remaining: ${stock}`); // Log each decrement
     stock --; // Decrement stock by 1
 }
+
+
+// Task 4: Do...While Loop
+
+// Declare variable responses with an initial value of zero
+let responses = 0;
+
+// Use do...while loop to collect responses
+do {
+   console.log(`Number of reponses: ${responses}`); // Log current response count
+   responses++; // Simulate user input with responses++
+} while (responses < 3); // Loop runs until responses reach 3
+
